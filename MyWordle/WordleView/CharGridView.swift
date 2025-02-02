@@ -15,7 +15,7 @@ struct CharGridView: View {
     var body: some View {
         ZStack {
             // Background image
-            Image("background") // Matches the name of the image in the asset catalog
+            Image("wordleBackground") // Matches the name of the image in the asset catalog
                 .resizable()
                 .scaledToFill() // Ensures it fills the screen
                 .blur(radius: 10)
